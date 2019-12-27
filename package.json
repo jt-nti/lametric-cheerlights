@@ -1,0 +1,31 @@
+{
+  "name": "lametric-cheerlights",
+  "version": "0.1.0",
+  "description": "LaMetric CheerLights app backend",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jt-nti/lametric-cheerlights.git"
+  },
+  "keywords": [
+    "lametric",
+    "cheerlights",
+    "mqtt"
+  ],
+  "author": "James Taylor",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jt-nti/lametric-cheerlights/issues"
+  },
+  "homepage": "https://github.com/jt-nti/lametric-cheerlights#readme",
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  }
+}
