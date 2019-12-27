@@ -14,20 +14,20 @@ npm start
 
 LaMetric icon name and codes available for CheerLights colours
 
-| Colour    | Name               | Code   | Icon |
-| --------- | ------------------ | ------ | ---- |
-| red       | CheerLightsRed     | i33604 | ![red icon][red] |
-| green     | CheerLightsGreen   | i33603 | ![green icon][green] |
-| blue      | CheerLightsBlue    | i33605 | ![blue icon][blue] |
-| cyan      | CheerLightsCyan    | i33606 | ![cyan icon][cyan] |
-| white     | CheerLightsWhite   | i33607 | ![white icon][white] |
+| Colour    | Name               | Code   | Icon                         |
+| --------- | ------------------ | ------ | ---------------------------- |
+| red       | CheerLightsRed     | i33604 | ![red icon][red]             |
+| green     | CheerLightsGreen   | i33603 | ![green icon][green]         |
+| blue      | CheerLightsBlue    | i33605 | ![blue icon][blue]           |
+| cyan      | CheerLightsCyan    | i33606 | ![cyan icon][cyan]           |
+| white     | CheerLightsWhite   | i33607 | ![white icon][white]         |
 | warmwhite | CheerLightsOldLace | i33608 | ![warmwhite icon][warmwhite] |
-| oldlace   | CheerLightsOldLace | i33608 | ![oldlace icon][oldlace] |
-| purple    | CheerLightsPurple  | i33609 | ![purple icon][purple] |
-| magenta   | CheerLightsMagenta | i33610 | ![magenta icon][magenta] |
-| yellow    | CheerLightsYellow  | i33611 | ![yellow icon][yellow] |
-| orange    | CheerLightsOrange  | i33612 | ![orange icon][orange] |
-| pink      | CheerLightsPink    | i33613 | ![pink icon][pink] |
+| oldlace   | CheerLightsOldLace | i33608 | ![oldlace icon][oldlace]     |
+| purple    | CheerLightsPurple  | i33609 | ![purple icon][purple]       |
+| magenta   | CheerLightsMagenta | i33610 | ![magenta icon][magenta]     |
+| yellow    | CheerLightsYellow  | i33611 | ![yellow icon][yellow]       |
+| orange    | CheerLightsOrange  | i33612 | ![orange icon][orange]       |
+| pink      | CheerLightsPink    | i33613 | ![pink icon][pink]           |
 
 [red]: https://developer.lametric.com/content/apps/icon_thumbs/33604.png "red icon"
 [green]: https://developer.lametric.com/content/apps/icon_thumbs/33603.png "green icon"

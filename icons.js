@@ -8,8 +8,8 @@ var iconMap = {
     "oldlace" : "i33608",
     "purple" : "i33609",
     "magenta" : "i33610",
-    "pink" : "i33611",
-    "yellow" : "i33612",
-    "orange" : "i33613"
+    "yellow" : "i33611",
+    "orange" : "i33612",
+    "pink" : "i33613"
 };
 module.exports = iconMap;
