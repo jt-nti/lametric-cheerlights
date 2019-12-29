@@ -5,6 +5,7 @@ const frames = require('./frames')
 
 const accessToken = process.env.ACCESS_TOKEN
 const widgetId = process.env.WIDGET_ID
+const widgetVersion = 2
 
 var previousColour = ''
 var mqttClient = mqtt.connect('mqtt://mqtt.cheerlights.com')
@@ -31,7 +32,7 @@ mqttClient.on('message', function (topic, message) {
     const frame = frames[nextColour]
     console.log(JSON.stringify(frame, null, 2))
 
-    laMetricClient.updateWidget(widgetId, [ frame ], 1)
+    laMetricClient.updateWidget(widgetId, [ frame ], widgetVersion)
       .then(console.log('updated'))
       .catch(console.error)
   }
