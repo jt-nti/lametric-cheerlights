@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "LaMetric CheerLights app backend",
   "main": "index.js",
+  "engines": {
+    "node": "12.14.0"
+  },
   "directories": {
     "doc": "docs"
   },
