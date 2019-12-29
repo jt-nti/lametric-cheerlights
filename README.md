@@ -10,6 +10,13 @@ export WIDGET_ID=com.lametric.*****
 npm start
 ```
 
+Alternatively,
+
+```
+docker pull taylorjm/lametric-cheerlights
+docker run --name cheerlights -e ACCESS_TOKEN='*****' -e WIDGET_ID='com.lametric.*****' -d taylorjm/lametric-cheerlights
+```
+
 ## LaMetric icons
 
 LaMetric icon name and codes available for CheerLights colours
