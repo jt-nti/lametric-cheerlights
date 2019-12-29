@@ -1,7 +1,7 @@
 const mqtt = require('mqtt')
 const LaMetricCloud = require('lametric-cloud')
 
-const iconMap = require('./icons')
+const frames = require('./frames')
 
 const accessToken = process.env.ACCESS_TOKEN
 const widgetId = process.env.WIDGET_ID
@@ -25,18 +25,13 @@ mqttClient.on('message', function (topic, message) {
   var nextColour = message.toString()
   console.log(nextColour)
 
-  if (iconMap.hasOwnProperty(nextColour) && nextColour != previousColour) {
+  if (frames.hasOwnProperty(nextColour) && nextColour != previousColour) {
     previousColour = nextColour
 
-    const frames = [
-      {
-        text: nextColour,
-        icon: iconMap[nextColour],
-        index: 0
-      }
-    ]
+    const frame = frames[nextColour]
+    console.log(JSON.stringify(frame, null, 2))
 
-    laMetricClient.updateWidget(widgetId, frames, 1)
+    laMetricClient.updateWidget(widgetId, [ frame ], 1)
       .then(console.log('updated'))
       .catch(console.error)
   }

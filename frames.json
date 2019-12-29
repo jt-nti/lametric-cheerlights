@@ -1,0 +1,62 @@
+{
+    "red" : {
+        "text": "red",
+        "icon": "i33604",
+        "index": 0
+    },
+    "green" : {
+        "text": "green",
+        "icon": "i33603",
+        "index": 0
+    },
+    "blue" : {
+        "text": "blue",
+        "icon": "i33605",
+        "index": 0
+    },
+    "cyan" : {
+        "text": "cyan",
+        "icon": "i33606",
+        "index": 0
+    },
+    "white" : {
+        "text": "white",
+        "icon": "i33607",
+        "index": 0
+    },
+    "warmwhite" : {
+        "text": "oldlace",
+        "icon": "i33608",
+        "index": 0
+    },
+    "oldlace" : {
+        "text": "oldlace",
+        "icon": "i33608",
+        "index": 0
+    },
+    "purple" : {
+        "text": "purple",
+        "icon": "i33609",
+        "index": 0
+    },
+    "magenta" : {
+        "text": "mgenta",
+        "icon": "i33610",
+        "index": 0
+    },
+    "yellow" : {
+        "text": "yellow",
+        "icon": "i33611",
+        "index": 0
+    },
+    "orange" : {
+        "text": "orange",
+        "icon": "i33612",
+        "index": 0
+    },
+    "pink" : {
+        "text": "pink",
+        "icon": "i33613",
+        "index": 0
+    }
+}
