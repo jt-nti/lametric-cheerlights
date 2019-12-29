@@ -6,7 +6,7 @@ Simple server to subscribe to CheerLights updates via MQTT and push notification
 
 ```
 export ACCESS_TOKEN=*****
-export APP_PATH=/api/v1/dev/widget/update/com.lametric.*****
+export WIDGET_ID=com.lametric.*****
 npm start
 ```
 
