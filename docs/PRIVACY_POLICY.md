@@ -1,6 +1,8 @@
 ---
+layout: default
 permalink: /privacypolicy/
 ---
-# LaMetric CheerLights Privacy Policy
 
-This app does not collect any personal data
+# Privacy Policy
+
+The LaMetric CheerLights App does not collect any personal data
