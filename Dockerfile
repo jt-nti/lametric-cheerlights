@@ -1,4 +1,6 @@
-FROM node:12
+FROM node:12-alpine
+
+ENV NODE_ENV=production
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
