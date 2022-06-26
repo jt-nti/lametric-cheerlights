@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:14-alpine
 
 ENV NODE_ENV=production
 
@@ -10,7 +10,7 @@ COPY package*.json ./
 
 USER node
 
-RUN npm install
+RUN npm ci
 
 COPY --chown=node:node . .
 
