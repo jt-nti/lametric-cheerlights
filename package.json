@@ -30,6 +30,6 @@
   "homepage": "https://github.com/jt-nti/lametric-cheerlights#readme",
   "dependencies": {
     "lametric-cloud": "^1.0.0",
-    "mqtt": "^5.10.3"
+    "mqtt": "^5.10.4"
   }
 }
